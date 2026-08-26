@@ -44,10 +44,10 @@ The `owner-service` is one of three core microservices in the Pet Clinic system.
    git clone https://github.com/Isuri15/owner-service.git
    cd owner-service
    ```
-2. Configure your MySQL credentials in `src/main/resources/application.properties`:
+2. Configure MySQL credentials in `src/main/resources/application.properties`:
    ```properties
    spring.datasource.username=root
-   spring.datasource.password=yourpassword
+   spring.datasource.password=Ijse@1234
    ```
 3. Ensure `eureka-server` (port 8761) and `config-server` (port 8888) are running.
 4. Build and run the service:
